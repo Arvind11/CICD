@@ -24,9 +24,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             firebaseAppDistribution {
-                serviceCredentialsFile="$rootDir/everything-e291d-c324f33338db.json"
+                serviceCredentialsFile="$rootDir/cicd-f6e18-c9a81d2495e4.json"
                 releaseNotes="test"
-                testers="bodakesatish@gmail.com"
+                testers="arvind.shelke11@gmail.com"
             }
         }
     }
